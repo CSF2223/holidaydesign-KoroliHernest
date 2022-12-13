@@ -1,0 +1,42 @@
+/*my colors
+background: #439A97
+font color: #97DECE
+*/
+
+/*my text font*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;600;700&family=Roboto+Condensed:wght@700&display=swap");
+
+body {
+    background-color: #439A97;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #97DECE; /* text color*/
+    
+}
+
+.HolidayTitle {
+    letter-spacing: 0.2rem;
+    text-shadow: 5px 5px 5px #000;
+    text-align: center;
+    
+}
+
+.Filler1 {
+    letter-spacing: 0.1rem;
+}
+
+.FIller2 {
+    
+}
+
+.FIller3 {
+    
+}
+
+/*mobile design below*/ 
+@media (min-width: 900px) {
+    .HolidayTitle {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+}
