@@ -1,15 +1,15 @@
 /*my colors
-background: #439A97
-font color: #97DECE
+background color: #439A97, #4B56D2
+font color: #97DECE, #82C3EC
 */
 
 /*my text font*/
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;600;700&family=Roboto+Condensed:wght@700&display=swap");
 
 body {
-    background-color: #439A97;
+    background-color: #4B56D2; /*background color of the website*/
     font-family: "Roboto Condensed", sans-serif;
-    color: #97DECE; /* text color*/
+    color: #82C3EC; /* text color*/
     
 }
 
@@ -24,13 +24,27 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.FIller2 {
+.Filler2 {
+    letter-spacing: 0.1rem;
+}
+
+.Filler3 {
+    letter-spacing: 0.1rem;
     
 }
 
-.FIller3 {
+.BeachImageFile {
     
 }
+
+.ChristmasImageFile {
+    display: flex
+}
+
+.HanukkahImageFile {
+    
+}
+
 
 /*mobile design below*/ 
 @media (min-width: 900px) {
@@ -38,5 +52,25 @@ body {
         display: flex;
         text-align: center;
         justify-content: space-evenly;
+    }
+    .Filler1 {
+        display: flex;
+    }
+    .Filler2 {
+        display: flex;
+        overflow: inherit;
+    }
+    .Filler3 {
+        display: flex;
+    }
+    .BeachImageFile {
+        
+    }
+    .ChristmasImageFile {
+        display: flex;
+        text-align: right;
+    }
+    .HanukkahImageFile {
+        
     }
 }
