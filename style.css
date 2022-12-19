@@ -17,7 +17,11 @@ body {
     letter-spacing: 0.2rem;
     text-shadow: 5px 5px 5px #000;
     text-align: center;
-    
+}
+
+header:hover {
+  color: white;
+  transition: color 2s;
 }
 
 .Filler1 {
@@ -30,47 +34,29 @@ body {
 
 .Filler3 {
     letter-spacing: 0.1rem;
-    
 }
 
-.BeachImageFile {
-    
+.ImageFile {
+    text-align: center; /* this acts like an image align.*/
 }
 
-.ChristmasImageFile {
-    display: flex
+.ImageFile2 {
+    text-align: center; /* this acts like an image align.*/
 }
 
-.HanukkahImageFile {
-    
-}
-
-
-/*mobile design below*/ 
-@media (min-width: 900px) {
+@media (min-width: 875px) {
     .HolidayTitle {
         display: flex;
         text-align: center;
         justify-content: space-evenly;
     }
     .Filler1 {
-        display: flex;
+        display: flex; 
     }
     .Filler2 {
         display: flex;
-        overflow: inherit;
     }
     .Filler3 {
         display: flex;
-    }
-    .BeachImageFile {
-        
-    }
-    .ChristmasImageFile {
-        display: flex;
-        text-align: right;
-    }
-    .HanukkahImageFile {
-        
     }
 }
