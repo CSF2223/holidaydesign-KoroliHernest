@@ -7,7 +7,7 @@ font color: #97DECE, #82C3EC
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;600;700&family=Roboto+Condensed:wght@700&display=swap");
 
 body {
-    background: linear-gradient(blue, grey);
+    background: #4B56D2;
     font-family: "Roboto Condensed", sans-serif;
     color: #82C3EC; /* text color*/
 }
@@ -18,9 +18,9 @@ body {
     text-align: center;
 }
 
-header:hover {
+h3:hover {
   color: white;
-  transition: color 2s;
+  transition: color 1.5s;
 }
 
 .Filler1 {
@@ -41,7 +41,7 @@ header:hover {
 }
 
 .ImageFile2 {
-    text-align: center; /* this acts like an image align.*/
+    text-align: center; 
 }
 
 img {
@@ -56,9 +56,20 @@ img {
         text-align: center;
         justify-content: space-evenly;
     }
+    
     img {
-        width: 275px;
-        height: 270px;
+        width: 305px;
+        height: 300px;
+    }
+    
+    .Filler1 {
+        font-size: large;
+    }
+    .Filler2 {
+        font-size: large;
+    }
+    .Filler3 {
+        font-size: large;
     }
 }
 /*computer design ends here*/
