@@ -1,0 +1,77 @@
+/*my colors
+background color: #439A97, #4B56D2
+font color: #97DECE, #82C3EC
+*/
+
+/*my text font*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;600;700&family=Roboto+Condensed:wght@700&display=swap");
+
+body {
+    background: #4B56D2;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #82C3EC; /* text color*/
+}
+
+.HolidayTitle {
+    letter-spacing: 0.2rem;
+    text-shadow: 5px 5px 5px #000;
+    text-align: center;
+}
+
+h3:hover {
+  color: white;
+  transition: color 1.5s;
+}
+
+.Filler1 {
+    letter-spacing: 0.1rem;
+}
+
+.Filler2 {
+    letter-spacing: 0.1rem;
+}
+
+.Filler3 {
+    letter-spacing: 0.1rem;
+}
+
+/* mobile design starts below*/
+.ImageFile {
+    text-align: center; /* this acts like an image align.*/
+}
+
+.ImageFile2 {
+    text-align: center; 
+}
+
+img {
+    border-radius: 15%;
+    box-shadow: 2px 1px #000;
+}
+/*mobile design ends here*/
+
+/*computer design starts below*/
+@media (min-width: 875px) {
+    .HolidayTitle {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    img {
+        width: 305px;
+        height: 300px;
+    }
+    
+    .Filler1 {
+        font-size: large;
+    }
+    .Filler2 {
+        font-size: large;
+    }
+    .Filler3 {
+        font-size: large;
+    }
+}
+/*computer design ends here*/
+
