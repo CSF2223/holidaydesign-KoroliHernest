@@ -46,6 +46,7 @@ h3:hover {
 
 img {
     border-radius: 15%;
+    box-shadow: 2px 1px #000;
 }
 /*mobile design ends here*/
 
